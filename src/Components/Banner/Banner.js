@@ -37,7 +37,7 @@ const Banner = () => {
     > {/* background image */}
     <div className='banner__contents'>
         <h1>
-            {movie?.title || movie?.original_title}
+            {movie?.title || movie?.name || movie?.original_name}
         </h1>
         <div className='banner__buttons'>
             <button className='banner__button'>Play</button>
