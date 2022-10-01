@@ -1,10 +1,14 @@
 
 import './App.css';
+import Row from './Components/Row/Row';
 
 function App() {
   return (
     <div className="App">
-      <h1>This is the main page</h1>
+     <Row title="NETFLIX Originals" />
+     <Row title="Trending Now" />
+     <Row title="Comedies" />
+
       
     </div>
   );
