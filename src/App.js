@@ -13,6 +13,9 @@ function App() {
      <Row title="Trending Now" fetchUrl={requests.fetchTrending}/>
      <Row title="Comedies" fetchUrl={requests.fetchComedyMovies}/>
      <Row title="Action Movies" fetchUrl={requests.fetchActionMovies}/>
+     <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies}/>
+     <Row title="Romantic Movies" fetchUrl={requests.fetchRomanceMovies}/>
+     <Row title="Documentary Movies" fetchUrl={requests.fetchDocumentaries}/>
 
 
       
