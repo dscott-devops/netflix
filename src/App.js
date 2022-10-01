@@ -11,7 +11,7 @@ function App() {
  
   return (
     
-    <div className="App">
+    <div className="app">
       <Banner />
      <Row title="NETFLIX Originals" fetchUrl={requests.fetchNetflixOriginals} isLargeRow={true}/>
      <Row title="Top Rated" fetchUrl={requests.fetchTopRated}/>

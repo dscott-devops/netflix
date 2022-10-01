@@ -24,6 +24,11 @@ const Banner = () => {
       
     }, [])
     console.log("Movie",movie)
+    function truncateString(str, n) {
+        // If the length of str is less than or equal to num
+        // just return str--don't truncate it.
+       return str?.length > n ? str.substr(0, n -1) + "..." : str
+      }
     
   return (
     <header className='banner'
@@ -51,8 +56,11 @@ const Banner = () => {
         {/* div > 2 buttons */}
         {/* description */}
         <h1 className='banner__description'>
-            {movie?.overview}
+            {truncateString(movie?.overview,200)}
         </h1>
+        </div>
+        <div className='banner__fadebottom'>
+            
         </div>
     </header>
   )
