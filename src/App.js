@@ -14,7 +14,7 @@ function App() {
     <div className="app">
       <Nav/>
       <Banner />
-     <Row title="NETFLIX Originals" fetchUrl={requests.fetchNetflixOriginals} isLargeRow={true}/>
+     <Row title="MovieFlix Originals" fetchUrl={requests.fetchNetflixOriginals} isLargeRow={true}/>
      <Row title="Top Rated" fetchUrl={requests.fetchTopRated}/>
      <Row title="Trending Now" fetchUrl={requests.fetchTrending}/>
      <Row title="Comedies" fetchUrl={requests.fetchComedyMovies} isLargeRow/>
